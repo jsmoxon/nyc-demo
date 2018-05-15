@@ -53,6 +53,42 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Author__c</fullName>
+        <description>Translator field</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Translator</inlineHelpText>
+        <label>Author</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <description>This is where the description goes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is where the description goes</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Price__c</fullName>
+        <description>Book price</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The price of a book</inlineHelpText>
+        <label>Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
     <label>Book</label>
     <nameField>
         <label>Book Name</label>
