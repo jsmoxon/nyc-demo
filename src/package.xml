@@ -16,7 +16,6 @@
         <members>Account.Description</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
-        <members>Account.Jigsaw</members>
         <members>Account.Name</members>
         <members>Account.NumberOfEmployees</members>
         <members>Account.OwnerId</members>
@@ -26,7 +25,6 @@
         <members>Account.Rating</members>
         <members>Account.ShippingAddress</members>
         <members>Account.Sic</members>
-        <members>Account.SicDesc</members>
         <members>Account.Site</members>
         <members>Account.TickerSymbol</members>
         <members>Account.Type</members>
